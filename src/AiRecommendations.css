@@ -1,0 +1,237 @@
+
+.ai-recommendations {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 32px;
+  border-radius: 20px;
+  background: #f1f8f2;
+  color: #183b2a;
+  border: 1px solid #dce8df;
+}
+
+.ai-eyebrow {
+  color: #176b45;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.ai-recommendations h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.ai-recommendations form {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.ai-recommendations label {
+  font-weight: 700;
+}
+
+.ai-recommendations textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #cbd8ce;
+  border-radius: 10px;
+  font: inherit;
+  resize: vertical;
+}
+
+.ai-recommendations button {
+  justify-self: start;
+  padding: 13px 20px;
+  background: #176b45;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ai-recommendations button:disabled {
+  opacity: 0.6;
+}
+
+.ai-error {
+  color: #b42318;
+}
+
+.ai-result {
+  margin-top: 24px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #dce8df;
+}
+
+.ai-result p {
+  white-space: pre-wrap;
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  .ai-recommendations {
+    margin: 24px 12px;
+    padding: 20px;
+  }
+
+  .ai-recommendations button {
+    width: 100%;
+  }
+}
+
+.ai-recommendations input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  margin: 10px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.ai-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.ai-product-card {
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.ai-product-image {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.ai-product-details {
+  padding: 14px;
+}
+
+.ai-product-details h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.ai-product-details p {
+  margin: 6px 0;
+}
+
+.ai-product-price {
+  color: #15803d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .ai-product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .ai-product-image {
+    height: 135px;
+  }
+
+  .ai-product-details {
+    padding: 10px;
+  }
+}
+
+.ai-search-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.ai-search-form input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.ai-search-form button {
+  padding: 13px 18px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ai-clear-button {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.ai-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.ai-product-card {
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.ai-product-image {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.ai-product-details {
+  padding: 14px;
+}
+
+.ai-product-details h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.ai-product-category {
+  color: #6b7280;
+}
+
+.ai-product-price {
+  color: #15803d;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .ai-product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .ai-product-image {
+    height: 130px;
+  }
+
+  .ai-product-details {
+    padding: 10px;
+  }
+}
